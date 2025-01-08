@@ -1,0 +1,10 @@
+img{
+    display: block;
+    width: 100%;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 16px; /* Space between cards */
+    padding: 16px;
+}
