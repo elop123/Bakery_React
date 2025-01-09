@@ -8,7 +8,7 @@ export const MainLayout = () => {
   return (
     <>
     <NavBar />
-    <Outlet/> // Her kommer alt vores content
+    <Outlet/> 
     <Footer/>
     </>
   )

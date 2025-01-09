@@ -7,6 +7,8 @@ export const News = () => {
 
     const[news, setNews]= useState([]);
 
+    
+
     useEffect(()=>{
         const fetchNews = async ()=>{
             try{
@@ -29,7 +31,7 @@ export const News = () => {
             <li className={style.newsItem} key={item.id}>
                 <img className={style.newsImg} src={item.image} alt="newsImg" />
                 <h3 className={style.newsTitle}>{item.title.slice(0,15)}</h3>
-                <p className={style.newsText}>{item.teaser.slice(0,100)}</p>
+                <p className={style.newsText}>{item.teaser.slice(0,80)}</p>
             </li>
           
         ))}

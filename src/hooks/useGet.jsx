@@ -2,7 +2,7 @@ import { useEffect , useState} from "react";
 
 export function useGet(url){
 
-const[data, setData] = useState([]);
+const[data, setData] = useState();
 const[error, setError] = useState();
 const[isLoading, setIsLoading] = useState();
 

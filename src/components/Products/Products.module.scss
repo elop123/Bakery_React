@@ -1,21 +1,23 @@
 
   
 .container {
-    width: 100%; 
-    //max-width: 1200px; 
+    //width: 100%; 
+   // max-width: 1200px; 
     margin: 0 auto; 
-    padding: 2rem; 
+    padding: 4rem; 
     box-sizing: border-box; 
+    margin-top: -2rem;
   }
   
   .list {
     display: grid; 
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 2rem; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1rem; 
     list-style: none; 
     padding: 0;
     margin: 0 auto; 
     justify-items: center; 
+    margin-top: -14rem;
     
   }
   
@@ -87,4 +89,22 @@
     background-color: #333;
     color: #fff;
   }
+  
+  .sideList{
+    font-family: 'Open-sans';
+    color: #b6b6b6;
+    cursor: pointer;
+    padding: 1rem;
+    margin-left: -1.5rem;
+    
+  }
+  .sideList li{
+    color: #b6b6b6;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  .sideList li:hover{
+    color: #333;
+  }
+
   

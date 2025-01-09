@@ -48,9 +48,9 @@ useEffect(() => {
         <button className={style.pill1} onClick={()=>previousIndex()}><img src={pill}></img></button>
         <button className={style.pill} onClick={()=>nextIndex()}><img src={pill}></img></button>
         <div className={style.dots}>
-        <div onClick={()=>{setCurrentIndex(0)}}>1</div>
-        <div onClick={()=>{setCurrentIndex(1)}}>2</div>
-        <div onClick={()=>{setCurrentIndex(2)}}>3</div>
+        <div onClick={()=>{setCurrentIndex(0)}}></div>
+        <div onClick={()=>{setCurrentIndex(1)}}></div>
+        <div onClick={()=>{setCurrentIndex(2)}}></div>
         </div>
     </header>
   )
