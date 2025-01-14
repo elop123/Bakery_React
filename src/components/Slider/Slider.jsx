@@ -45,8 +45,12 @@ useEffect(() => {
     <header className={style.slider}>
         <img src={imageArray[currentIndex]} alt="slide1" />
         <h2 className={style.text}>Vi elsker at lave brød</h2>
-        <button className={style.pill1} onClick={()=>previousIndex()}><img src={pill}></img></button>
-        <button className={style.pill} onClick={()=>nextIndex()}><img src={pill}></img></button>
+        <button className={style.pill} onClick={() => previousIndex()}>
+        <img src={pill} alt="Previous" />
+    </button>
+    <button className={style.pill1} onClick={() => nextIndex()}>
+        <img src={pill} alt="Next" />
+    </button>
         <div className={style.dots}>
         <div onClick={()=>{setCurrentIndex(0)}}></div>
         <div onClick={()=>{setCurrentIndex(1)}}></div>

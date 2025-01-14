@@ -1,4 +1,4 @@
-img{
+.productImage{
     display: block;
     height: 220px; 
     width: 220px;
@@ -60,4 +60,13 @@ img{
     padding: 0.7rem 1rem;
     background-color: white;
     border: 1px solid black;
+    cursor: pointer;
+    font-family: 'Open-sans';
+    text-decoration: none;
+  }
+  .button:hover{
+    background-color: beige;
+  }
+  .button:active{
+    background-color: black;
   }

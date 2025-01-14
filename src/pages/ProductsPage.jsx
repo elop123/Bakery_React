@@ -22,7 +22,8 @@ export const ProductsPage = () => {
         <ProductCard imgSrc={product.image.fullpath}
                      numberComments= {product.num_comments}
                      title={product.title}
-                     text={product.teaser.slice(0,80)} />
+                     text={product.teaser.slice(0,80)} 
+                     id={product.id}/>
       )
     })}
         </div>

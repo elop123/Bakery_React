@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState, useEffect} from 'react-router-dom'
+import { CommentCard } from '../CommentCard/CommentCard';
 
 export const ProductDetail = () => {
     const [product, setProduct] = useState([]);
@@ -20,10 +21,7 @@ export const ProductDetail = () => {
             fetchList()}, [id])
   return (
 
-    <section>
-    <h2>{}</h2>
-    <p></p>
-    </section>
+  
 
   )
 }

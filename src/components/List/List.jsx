@@ -27,13 +27,7 @@ export const List = () => {
              <Title  title="Nyeste bægværk"
                      text="Der er mange tilgængelige udgaver af Lorem Ipsum, men de fleste udgaver har gennemgået forandringer, når nogen har tilføjet humor eller tilfældige ord, som på ingen måde ser ægte ud."
                      />
-            {/* <div className={style.sideList}>
-              <li>RUNDSTYKKER</li>
-              <li>BAGUETTES</li>
-              <li>FRANSKBRØD</li>
-              <li>KAGER</li>
-              <li>RUGBRØD</li>
-            </div> */}
+           
             <ul className={style.list}>
                     {list.slice(0,8).map((item)=>(
                       <div className={style.listContainer}>

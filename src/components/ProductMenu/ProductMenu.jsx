@@ -7,7 +7,7 @@ const {data, isLoading, error }= useGet('https://api.mediehuset.net/bakeonline/c
 
   return (
     <aside>
-       <ul style={{  marginTop:'-5rem', marginLeft:'-14rem', padding:'2rem', listStyle: 'none', display: 'flex', flexDirection:'column', fontFamily:'Open-sans',cursor:'pointer' }}>
+       <ul style={{  alignItems:'left', marginTop:'-5rem', marginLeft:'-14rem', padding:'2rem', listStyle: 'none', display: 'flex', flexDirection:'column', fontFamily:'Open-sans',cursor:'pointer' }}>
         {!isLoading && data?.items?.map((item) => (
           <li  className={style.li}key={item.id} onClick={() => setId(item.id)}> 
             {item.title}
